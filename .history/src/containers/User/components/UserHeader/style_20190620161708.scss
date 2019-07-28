@@ -1,0 +1,73 @@
+.userHeader {
+  height: 0.45rem;
+  line-height: 0.45rem;
+  padding: 0 0.1rem;
+  text-align: center;
+  color: #333;
+  position: relative;
+  z-index: 300;
+  box-sizing: border-box;
+  background-color: #fff;
+  .userHeader__back {
+    position: relative;
+    width: 0.6rem;
+    font-size: 0.13rem;
+    &:before {
+      border: 0.01rem solid #777;
+      position: absolute;
+      left: 0.04rem;
+      top: 0.22rem;
+      margin-top: -0.08rem;
+      display: block;
+      content: "";
+      width: 0.12rem;
+      height: 0.12rem;
+      border-top: none;
+      border-right: none;
+      transform: rotate(45deg);
+    }
+  }
+  .userHeader__list {
+    position: absolute;
+    width: 1.4rem;
+    height: 0.3rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.7rem;
+    margin-top: -0.15rem;
+    font-size: 0.14rem;
+    display: flex;
+    .userHeader__item--selected {
+      background-color: #f63;
+      color: #fff;
+    }
+    .userHeader__item {
+      color: #f63;
+      width: 50%;
+      height: 100%;
+      float: left;
+      line-height: 0.28rem;
+      box-sizing: border-box;
+      border: 1px solid #f63;
+      &:first-child {
+        border-top-left-radius: 0.02rem;
+        border-bottom-left-radius: 0.02rem;
+      }
+      &:last-child {
+        border-top-right-radius: 0.02rem;
+        border-bottom-right-radius: 0.02rem;
+      }
+    }
+  }
+  .userHeader__right {
+    position: absolute;
+    width: 0.6rem;
+    right: 0.05rem;
+    top: 0;
+    font-size: 0.13rem;
+  }
+}
+
+
+
+

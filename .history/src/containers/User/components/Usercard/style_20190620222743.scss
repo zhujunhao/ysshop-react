@@ -1,0 +1,36 @@
+.userCard__Max {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .userCard__card {
+    width: 88%;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2rem;
+    border-radius: 0.08rem;
+    border: 0.01rem solid #eee;
+    background: #fff;
+    .userCard__div {
+      width: 0.6rem;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      margin-left: 0.2rem;
+      border-radius: 0.3rem;
+      border: 0.01rem solid #eee;
+      background-color: #fff;
+      background-image: url('../../../../images/aboutme.jpg');
+      .userCard__img {
+        width: 0.6rem;
+        height: 0.6rem;
+        background-image: 'url("../../../../images/backgroundPic.png")'
+      }
+    }
+    .userCard__name {
+      margin-left: 0.2rem;
+      color: #333;
+      font-size: 0.16rem;
+    }
+  }
+}

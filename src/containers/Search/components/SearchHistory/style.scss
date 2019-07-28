@@ -1,0 +1,49 @@
+.searchHistory {
+  background-color: #fff;
+  font-size: 0.15rem;
+  color: #323232;
+  margin-top: 0.01rem;
+    
+  .searchHistory__header {
+    background-color: #f0f0f0;
+    padding: 0.08rem 0.15rem;
+    color: #999;
+  }
+  
+  .searchHistory__list {
+    padding-left: 0.15rem;
+    margin: 0;
+    .searchHistory__item {
+      display: block;
+      color: #323232;
+      font-size: 0.14rem;
+      height: 0.4rem;
+      line-height: 0.4rem;
+      background-color: #fff;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      background-image: linear-gradient(0, #e1e1e1, #e1e1e1 50%, transparent 50%);
+      background-position: 100% 100%;
+      background-size: 100% 0.01rem;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .searchHistory__clear {
+    height: 0.45rem;
+    line-height: 0.45rem;
+    color: #333;
+    text-align: center;
+    font-size: 0.14rem;
+    background-color: #fff;
+    display: block;
+    border: none;
+  }
+}
+
+  
+
+  
+
+  

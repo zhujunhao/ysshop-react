@@ -1,0 +1,70 @@
+.headline {
+  display: flex;
+  background-color: #fff;
+  .headline__logo {
+    width: 0.5rem;
+    height: 0.65rem;
+    flex-basis: 0.5rem;
+    background-image: url('http://www.dpfile.com/app/app-m-module/static/a4af59210e26080ea9403fff6e56e6b1.png');
+    background-position: -0.86rem 0.18rem;
+    background-repeat: no-repeat;
+    background-size: 1.86rem;
+    &:after {
+      background-image: linear-gradient(90deg,#e1e1e1,#e1e1e1 50%,transparent 50%);
+      background-position: top right;
+      background-size: 0.01rem 100%;
+      background-repeat: no-repeat;
+      content: "";
+      display: block;
+      height: 0.3rem;
+      margin-top: 0.2rem;
+    }
+  }
+  .headline__slider {
+    height: 0.65rem;
+    flex: 1; 
+    overflow: hidden;
+    .headline__sliderInner {
+      display: inline-block;
+      height: 0.65rem;
+      width: 100%;
+      .headline__sliderTitle {
+        width: calc(100% - 0.75rem);
+        height: 100%;
+        float: left;
+        line-height: 0.2rem;
+        font-size: 0.14rem;
+        font-weight: bold;
+        color: #111;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .headline__sliderImgWrapper {
+        float: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .headline__sliderImg {
+          width: 0.45rem;
+          height: 0.45rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

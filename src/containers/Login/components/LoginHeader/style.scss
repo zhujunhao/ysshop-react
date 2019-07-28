@@ -1,0 +1,42 @@
+.loginHeader {
+  text-align: center;
+  background: #fcfcfc;
+  line-height: 0.45rem;
+  width: 100%;
+  height: 0.45rem;
+  font-size: 0.14rem;
+  border-bottom: 0.01rem solid #e0007b;
+  .loginHeader__back {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0.45rem;
+    width: 0.45rem;
+    height: 0.45rem;
+    font-size: 0.14rem;
+    &:before {
+      border-top: 0.01rem solid #e0007b;
+      border-left: 0.01rem solid #e0007b;
+      transform-origin: 0 0;
+      transform: rotate(-45deg);
+      width: 0.12rem;
+      height: 0.12rem;
+      display: inline-block;
+      content: "";
+      position: absolute;
+      top: 50%;
+    }
+  }
+  
+  .loginHeader__title {
+    line-height: 0.45rem;
+    width: 100%;
+    height: 0.45rem;
+    font-size: 0.18rem;
+    text-align: center;
+  }
+}
+  
+
+  

@@ -1,0 +1,48 @@
+.popularSearch {
+    padding: 0.1rem 0.15rem;
+    font-size: 0.14rem;
+    background-color: #f0f0f0;
+    &:after {
+      display: block;
+      content: "";
+      height: 0;
+      clear: both;
+    }
+    .popularSearch__item {
+      float: left;
+      background-color: #fff !important;
+      color: #323232;
+      width: 33%;
+      height: 0.38rem;
+      line-height: 0.38rem;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(4),
+      &:nth-child(5) {
+        background-image: linear-gradient(0, #e1e1e1, #e1e1e1 50%, transparent 50%),
+          linear-gradient(90deg, #e1e1e1, #e1e1e1 50%, transparent 50%);
+        background-position-x: right, right;
+        background-position-y: bottom, top;
+        background-size: 100% 0.01rem, 0.01rem 100%;
+        background-repeat: no-repeat;
+      }
+      &:nth-child(7),
+      &:nth-child(8) {
+        background-image: linear-gradient(90deg,#e1e1e1,#e1e1e1 50%,transparent 50%);
+        background-position: top right;
+        background-size: 0.01rem 100%;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  
+
+  
+
+  
+
+  

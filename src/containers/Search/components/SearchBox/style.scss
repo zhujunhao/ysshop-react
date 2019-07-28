@@ -1,0 +1,77 @@
+.searchBox {
+  font-size: 0.14rem;
+  background-color:#fff;
+  .searchBox__container {
+    height: 0.45rem;
+    color: #f63;
+    padding-left: 0.08rem;
+    display: flex;
+    align-items: center;
+    .searchBox__text {
+      background-color: #f0f0f0;
+      width: calc(100% - 0.68rem);
+      height: 0.3rem;
+      padding-left: 0.1rem;
+      padding-right: 0.3rem;
+      border: none;
+      border-radius: 0.15rem;
+    }
+    
+    .searchBox__clear {
+      background-image: url("https://www.dpfile.com/app/node-mobile-m-isomorphism-web/static/d53930bbff0bf22cb8cea72503da44d9.png");
+      background-size: 2.5rem;
+      background-repeat: no-repeat;
+      background-position: 0.03rem -1.85rem;
+      width: 0.22rem;
+      height: 0.34rem;
+      margin-left: -0.25rem;
+    }
+    
+    .searchBox__cancel {
+      width: 0.48rem;
+      height: 0.45rem;
+      line-height: 0.45rem;
+      padding: 0 0.1rem;
+      display: inline-block;
+      font-size: 0.14rem;
+      text-align: center;
+      color: #e3007b
+    }
+  }
+}
+  
+.searchBox__list {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 0.45rem);
+  box-sizing: border-box;
+  top: 0.45rem;
+  list-style: none;
+  padding: 0 0.1rem 0 0.15rem;
+  margin: 0;
+  z-index: 9999;
+  background-color: #fff;
+  .searchBox__item {
+    padding: 0.15rem 0.1rem 0.15rem 0;
+    font-size: 0.15rem;
+    line-height: 0.15rem;
+    position: relative;
+    display: block;
+    color: #333;
+    overflow: hidden;
+  }
+  
+  .searchBox__itemTitle {
+    float: left;
+    color: #666;
+  }
+  
+  .searchBox__itemQuantity {
+    float: right;
+    color: #666;
+    font-size: 0.12rem;
+  }
+}
+  
+
+  

@@ -1,0 +1,109 @@
+.homeHeader {
+  &:after{
+    display: block;
+    height: 0.5rem;
+    content: '';
+  }
+  .homeHeader__wrapper {
+    position: fixed;
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background-color: #e0007b;
+    color: #fff;
+    padding: 0 0.1rem;
+    text-align: center;
+    display: -webkit-box;
+    z-index: 305;
+    box-sizing: border-box;
+    .homeHeader__city {
+      position: relative;
+      padding-right: 0.17rem;
+      color: #fff;
+      max-width: 0.6rem;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      display: block;
+      text-decoration: none;
+      &:after {
+        border: 0.01rem solid #fff;
+        position: absolute;
+        right: 0.02rem;
+        top: 50%;
+        margin-top: -0.08rem;
+        display: block;
+        content: "";
+        width: 0.08rem;
+        height: 0.08rem;
+        border-top: none;
+        border-right: none;
+        transform: rotate(-45deg);
+      }
+    }
+
+    .homeHeader__search {
+      display:block;
+      background-color: #fff;
+      padding: 0 0 0 0.3rem;
+      -webkit-box-flex: 1;
+      height: 0.3rem;
+      margin: 0.09rem 0.06rem 0.09rem 0.1rem;
+      line-height: 0.32rem;
+      color: #b8b8b8;
+      text-align: left;
+      font-size: 0.13rem;
+      transition: left 0.2s, right 0.2s;
+      border-radius: 0.25rem;
+      position: relative;
+      &:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 0.08rem;
+        height: 0.08rem;
+        border: 0.01rem solid #888;
+        border-radius: 0.11rem;
+        left: 0.12rem;
+        bottom: 0.11rem;
+      }
+    }
+
+    .homeHeader__self {
+      display: block;
+      width: 0.28rem;
+      height: 100%;
+      .homeHeader__portrait {
+        height: 0.22rem;
+        width: 0.22rem;
+        border: 0.01rem solid #fff;
+        border-radius: 0.17rem;
+        position: relative;
+        top: 0.13rem;
+        overflow: hidden;
+        &:before {
+          border: 0.01rem solid #fff;
+          position: absolute;
+          right: 0.06rem;
+          top: 0.04rem;
+          display: block;
+          content: "";
+          width: 0.08rem;
+          height: 0.08rem;
+          border-radius: 0.05rem;
+        }
+        &:after {
+          border: 0.01rem solid #fff;
+          position: absolute;
+          right: 0.02rem;
+          top: 0.13rem;
+          display: block;
+          content: "";
+          width: 0.16rem;
+          height: 0.16rem;
+          border-radius: 0.1rem;
+        }
+      }
+    }
+  }
+}

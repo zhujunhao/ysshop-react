@@ -1,0 +1,11 @@
+[
+  { "goodsNum": "mz", "keyword": "男装" },
+  { "goodsNum": "wz", "keyword": "女装" },
+  { "goodsNum": "cz", "keyword": "彩妆" },
+  { "goodsNum": "wj", "keyword": "玩具" },
+  { "goodsNum": "cp", "keyword": "车品" },
+  { "goodsNum": "jd", "keyword": "家电" },
+  { "goodsNum": "ny", "keyword": "内衣" },
+  { "goodsNum": "jj", "keyword": "居家" },
+  { "goodsNum": "ps", "keyword": "配饰" }
+]
