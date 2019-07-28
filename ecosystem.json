@@ -5,9 +5,9 @@
             "host": ["39.108.154.18"],
             "ref": "origin/master",
             "repo": "git@github.com:zhujunhao/ysshop-react.git",
-            "path": "/root/www/reactWeb",
+            "path": "/home/www/reactWeb",
             "post-setup": "ls -la",
-            "post-deploy": "cd /root/www/front && rm -rf * && cd /root/www/reactWeb/current/fe/build && cp -r . /root/www/front"
+            "post-deploy": "cd /home/www/front && rm -rf * && cd /home/www/reactWeb/current/fe/build && cp -r . /home/www/front"
         }
     }
 }
