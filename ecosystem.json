@@ -17,8 +17,8 @@
             "host": ["39.108.154.18"],
             "ref": "origin/master",
             "repo": "git@github.com:zhujunhao/ysshop-react.git",
-            "path": "/home/www/reactWeb",
-            "post-deploy": "npm run build && pm2 startOrRestart ecosystem.json --env production",
+            "path": "/root/www/reactWeb",
+            "post-deploy": "npm install && npm run build && pm2 startOrRestart ecosystem.json --env production",
             "env": {
                 "NODE_ENV": "production"
             }
