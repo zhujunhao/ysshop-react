@@ -20,7 +20,7 @@ class App extends Component {
       appActions: { clearError }
     } = this.props;
     return (
-      <div className="App">
+      <div>
         <Router>
           <Switch>
             <Route path="/login" component={Login} />
